@@ -1,5 +1,8 @@
 
 # 100+ most commom spanish words
+# when a word has 2 different meanings, I added "[]" and ","
+# I found better words to use so I added 30 more words to import
+
 import random
 
 words = [
@@ -107,12 +110,15 @@ words = [
 ]
 # By using this coding, it will shuffle all the words already placed on top.
 # I use import to use random properly.
+#I organized my code by using the tab bottom.
 def prueba_user(words):
   random.shuffle(words)
   score = 0
 
 # looping over the words.
 # having the anser and with strip and lower, the user will not make mistakes of spacing and uppercase.
+# in order to use '{word['spanish']}'?" properly, I added f in the beginning of ()
+
     for word in words:
         print(f"What is the English equivalent of '{word['spanish']}'?")
         user_answer = input("Your answer: ").strip().lower()
@@ -124,7 +130,7 @@ def prueba_user(words):
           score += 1
         else:
           print(f"Wrong, try again! The correct answer will be '{word['english']}'.\n")
-
+# in order to use {score}/{len(words)}"  properly, I added f in the beginning of ()
   print(f"Quiz complete! Your score is:/ Haz completado tu prueba! tu puntuacion es: {score}/{len(words)}")
         
 
