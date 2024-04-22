@@ -97,7 +97,7 @@ words = [
   {"spanish": "ventana", "english": "window"},
   {"spanish": "silla", "english": "chair"},
   {"spanish": "doctor", "english": "doctor"},
-  {"spanish": "enfermo", "enferma", "english": "sick"},
+  {"spanish": "enfermo", "english": "sick"},
   {"spanish": "reloj", "english": "watch"},
   {"spanish": "cuchara", "english": "spoon"},
   {"spanish": "tenedor", "english": "fork"},
