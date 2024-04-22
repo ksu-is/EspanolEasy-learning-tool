@@ -1,3 +1,5 @@
+
+# 100+ most commom spanish words
 word = [
   {"spanish": "el", "english": "he"},
   {"spanish": "ella", "english": "she"},
@@ -39,4 +41,19 @@ word = [
   {"spanish": "tiempo", "english": "time"},
   {"spanish": "desde", "english": "from"},
   {"spanish": "entre", "english": "between"},
+  {"spanish": "vez", "english": "time"},
+  {"spanish": "sobre", "english": "on"},
+  {"spanish": "mi", "english": "my"},
+  {"spanish": "dar", "english": "give"},
+  {"spanish": "ese", "english": "that"},
+  {"spanish": "este", "english": "this"},
+  {"spanish": "ya", "english": "already"},
+  {"spanish": "otro", "english": "other"},
+  {"spanish": "poder", "english": "can"},
+  {"spanish": "no poder", "english": "can't"},
+  {"spanish": "", "english": ""},
+  {"spanish": "", "english": ""},
+  {"spanish": "", "english": ""},
+  {"spanish": "", "english": ""},
+  
   
