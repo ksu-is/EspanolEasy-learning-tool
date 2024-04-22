@@ -135,4 +135,5 @@ def main():
   print("Press enter/return to start learning", "Presiona enter/retornar para comenzar aprendiendo")
   prueba_user(words)
   
-  
+if __name__ == "__main__":
+main()
