@@ -6,6 +6,7 @@ EspañolEase is a user-friendly language learning application tailored specifica
 EspañolEase is ideal for beginners who are English speakers who are new to learning Spanish and are looking for a structured and intuitive way to start their language learning journey. Students which could be high school or college students who need to fulfill language requirements or wish to enhance their academic profiles with Spanish proficiency. Travelers which are mostly individuals planning to visit Spanish-speaking countries who want to learn basic phrases and expressions to navigate daily interactions and experiences effectively.
 
 EspañolEase offers a comprehensive curriculum with structured lessons covering essential topics such as vocabulary and grammar. The app provides interactive exercises such as quizzes. These exercises help reinforce learning and improve retention through active engagement. EspañolEase includes a vocabulary builder tool with an extensive library of commonly used words. Users can learn new vocabulary through interactive exercises and track their progress as they expand their Spanish vocabulary.
+
 This app has amazing benefits such as: 
 
 **User-friendly Interface:**
