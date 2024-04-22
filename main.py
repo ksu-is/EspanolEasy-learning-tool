@@ -113,27 +113,27 @@ def prueba_user(words):
 
 # looping over the words.
 # having the anser and with strip and lower, the user will not make mistakes of spacing and uppercase.
-  for word in words:
-      print("What is the English equivalent of '{word['spanish']}'?")
-      user_answer = input("add your name: ").strip().lower()
-      correct_answer = word['english'].lower()
+    for word in words:
+        print("What is the English equivalent of '{word['spanish']}'?")
+        user_answer = input("Your answer: ").strip().lower()
+        correct_answer = word['english'].lower()
 #if the answer is correct, will say correct or correcto.
 #if the answer is incorrect, it will show you the right answer.
-      if user_answer == correct_answer:
-        print("Correct!!!\n!","Correcto!!"\n!")
-        score += 1
-      else:
-        print("Wrong, try again! The correct answer will be '{word['english']}'.\n")
+        if user_answer == correct_answer:
+          print("Correct!!!\n!","Correcto!!"\n!")
+          score += 1
+        else:
+          print("Wrong, try again! The correct answer will be '{word['english']}'.\n")
 
 print("Quiz complete! Your score is:/ Haz completado tu prueba! tu puntuacion es: {score}/{len(words)}")
         
 
 
-# Welcome coding page!
+# Welcome coding page.
 def main():
-  print("Welcome to the learning Spanish tool for beginners EspanolEasy!","Bienvenidos a la herramienta de aprendizaje de Espanol para principiantes EspanolEasy!")
-  print("Press enter/return to start learning", "Presiona enter/retornar para comenzar aprendiendo")
-  prueba_user(words)
+    print("Welcome to the learning Spanish tool for beginners EspanolEasy!","Bienvenidos a la herramienta de aprendizaje de Espanol para principiantes EspanolEasy!")
+    print("Enter to start learning", "Comienza aprendiendo")
+    prueba_user(words)
   
 if __name__ == "__main__":
-main()
+  main()
