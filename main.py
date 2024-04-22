@@ -1,6 +1,6 @@
 
 # 100+ most commom spanish words
-word = [
+words = [
   {"spanish": "el", "english": "he"},
   {"spanish": "ella", "english": "she"},
   {"spanish": "que", "english": "that/which (question) /what (question)"},
@@ -84,6 +84,22 @@ word = [
   {"spanish": "", "english": ""},
   {"spanish": "", "english": ""},
 ]
+# By using this coding, it will shuffle all the words already placed on top.
+def prueba_user(words):
+  random.shuffle(words)
+  score = 0
 
+#
+  for word in words:
+    print("What is the English equivalent of '{word['spanish']}'?")
+    
+  
+
+
+# Welcome coding page!
+def main():
+  print("Welcome to the learning Spanish tool for beginners EspanolEasy!","Bienvenidos a la herramienta de aprendizaje de Espanol para principiantes EspanolEasy!")
+  print("Press enter/return to start learning", "Presiona enter/retornar para comenzar aprendiendo")
+  prueba_user(words)
   
   
