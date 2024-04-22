@@ -23,3 +23,8 @@ SPRINT 2
 - [X] Fix some errors
       
 - [X] Add comments to my coding
+
+WORK IN PROGRESS
+- [ ] ADD CODING TO KEEP TRACK OF PROGRESS
+- [ ] QUIT CODE
+- [ ] update.
