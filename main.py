@@ -106,6 +106,7 @@ words = [
   {"spanish": "", "english": ""},
 ]
 # By using this coding, it will shuffle all the words already placed on top.
+# I use import to use random properly.
 def prueba_user(words):
   random.shuffle(words)
   score = 0
@@ -115,7 +116,7 @@ def prueba_user(words):
   for word in words:
       print("What is the English equivalent of '{word['spanish']}'?")
       user_answer = input("add your name: ").strip().lower()
-      correct_anser = word['english'].lower()
+      correct_answer = word['english'].lower()
 #if the answer is correct, will say correct or correcto.
 #if the answer is incorrect, it will show you the right answer.
       if user_answer == correct_answer:
