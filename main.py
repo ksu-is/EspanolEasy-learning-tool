@@ -5,22 +5,22 @@ words = [
   {"spanish": "ella", "english": "she"},
   {"spanish": "que", "english": "that/which (question) /what (question)"},
   {"spanish": "y", "english": "and"},
-  {"spanish": "a", "english": "to/at"},
-  {"spanish": "de", "english": "of/from"},
+  {"spanish": "a", "english": "to", "at"},
+  {"spanish": "de", "english": "of","from"},
   {"spanish": "ser", "english": "to be"},
   {"spanish": "parte", "english": "part"},
   {"spanish": "en", "english": "in/on"},
   {"spanish": "haber", "english": "to be"},
   {"spanish": "no", "english": "not/no"},
   {"spanish": "dejar", "english": "to leave"},
-  {"spanish": "su", "english": "his/her/your/their"},
+  {"spanish": "su", "english": "his", "her", "your", "their"},
   {"spanish": "creer", "english": "to believe"},
   {"spanish": "hablar", "english": "to speak"},
   {"spanish": "nada", "english": "nothing"},
   {"spanish": "menos", "english": "less"},
   {"spanish": "mas", "english": "more"},
   {"spanish": "estar", "english": "to be"},
-  {"spanish": "como", "english": "like/as"},
+  {"spanish": "como", "english": "like","as"},
   {"spanish": "tener", "english": "to have"},
   {"spanish": "hacer", "english": "to make"},
   {"spanish": "nuevo", "english": "new"},
@@ -30,7 +30,7 @@ words = [
   {"spanish": "llevar", "english": "to carry"},
   {"spanish": "ahora", "english": "now"},
   {"spanish": "donde", "english": "where"},
-  {"spanish": "bien", "english": "well/good"},
+  {"spanish": "bien", "english": "well", "good"},
   {"spanish": "parecer", "english": "seem"},
   {"spanish": "cosa", "english": "thing"},
   {"spanish": "dia", "english": "day"},
@@ -83,6 +83,24 @@ words = [
   {"spanish": "", "english": ""},
   {"spanish": "", "english": ""},
   {"spanish": "", "english": ""},
+  {"spanish": "", "english": ""},
+  {"spanish": "", "english": ""},
+  {"spanish": "", "english": ""},
+  {"spanish": "", "english": ""},
+  {"spanish": "", "english": ""},
+  {"spanish": "", "english": ""},
+  {"spanish": "", "english": ""},
+  {"spanish": "", "english": ""},
+  {"spanish": "", "english": ""},
+  {"spanish": "", "english": ""},
+  {"spanish": "", "english": ""},
+  {"spanish": "", "english": ""},
+  {"spanish": "", "english": ""},
+  {"spanish": "", "english": ""},
+  {"spanish": "", "english": ""},
+  {"spanish": "", "english": ""},
+  {"spanish": "", "english": ""},
+  {"spanish": "", "english": ""},
 ]
 # By using this coding, it will shuffle all the words already placed on top.
 def prueba_user(words):
@@ -101,12 +119,10 @@ def prueba_user(words):
         print("Correct!!!\n!","Correcto!!"\n!")
         score += 1
       else:
-        print("Wrong, try again! The correct answer will be '{word['english']}'.\n)
-        
+        print("Wrong, try again! The correct answer will be '{word['english']}'.\n")
 
-    
-    
-  
+print("Quiz complete! Your score is:/ Haz completado tu prueba! tu puntuacion es: {score}/{len(words)}")
+        
 
 
 # Welcome coding page!
