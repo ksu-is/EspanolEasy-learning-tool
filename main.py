@@ -111,9 +111,9 @@ words = [
 # By using this coding, it will shuffle all the words already placed on top.
 # I use import to use random properly.
 #I organized my code by using the tab bottom.
-def prueba_user(words):
-  random.shuffle(words)
-  score = 0
+def quiz_user(words):
+    random.shuffle(words)
+    score = 0
 
 # looping over the words.
 # having the anser and with strip and lower, the user will not make mistakes of spacing and uppercase.
@@ -126,20 +126,22 @@ def prueba_user(words):
 #if the answer is correct, will say correct or correcto.
 #if the answer is incorrect, it will show you the right answer.
         if user_answer == correct_answer:
-          print("Correct!!!\n!","Correcto!!"\n!")
-          score += 1
+            print("Correct!!\n!")
+            score += 1
         else:
-          print(f"Wrong, try again! The correct answer will be '{word['english']}'.\n")
+            print(f"Wrong, try again! The correct answer will be '{word['english']}'.\n")
 # in order to use {score}/{len(words)}"  properly, I added f in the beginning of ()
-  print(f"Quiz complete! Your score is:/ Haz completado tu prueba! tu puntuacion es: {score}/{len(words)}")
+            
+    print(f"Quiz complete! Your score is:/ Haz completado tu prueba! tu puntuacion es: {score}/{len(words)}")
         
 
 
 # Welcome coding page.
 def main():
-    print("Welcome to the learning Spanish tool for beginners EspanolEasy!","Bienvenidos a la herramienta de aprendizaje de Espanol para principiantes EspanolEasy!")
-    print("Enter to start learning", "Comienza aprendiendo")
-    prueba_user(words)
+    print("Welcome to the learning Spanish tool for beginners EspanolEasy! Bienvenidos a la herramienta de aprendizaje de Espanol para principiantes EspanolEasy!")
+    input("Enter to start learning! Comienza aprendiendo!")
+    quiz_user(words)
   
 if __name__ == "__main__":
-  main()
+    main()
+#just texted my code in visual and add I fixed some mistakes.
