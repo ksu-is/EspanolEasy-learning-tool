@@ -138,8 +138,9 @@ def quiz_user(words):
 
 # Welcome coding page.
 def main():
-    print("Welcome to the learning Spanish tool for beginners EspanolEasy! Bienvenidos a la herramienta de aprendizaje de Espanol para principiantes EspanolEasy!")
-    input("Enter to start learning! Comienza aprendiendo!")
+    def main():
+    user_names =input("Enter your name to start learning! introduce tu nombre para comenzar aprendiendo :")
+    print("Welcome " + user_names + " to the learning Spanish tool for beginners EspanolEasy!" "Bienvenidos " + user_names + " a la herramienta de aprendizaje de Espanol para principiantes EspanolEasy!")
     quiz_user(words)
   
 if __name__ == "__main__":
