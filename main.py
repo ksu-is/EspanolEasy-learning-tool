@@ -106,7 +106,6 @@ words = [
   {"spanish": "reloj", "english": "watch"},
   {"spanish": "cuchara", "english": "spoon"},
   {"spanish": "tenedor", "english": "fork"},
-  {"spanish": "", "english": ""},
 ]
 # By using this coding, it will shuffle all the words already placed on top.
 # I use import to use random properly.
@@ -123,6 +122,9 @@ def quiz_user(words):
         print(f"What is the English equivalent of '{word['spanish']}'?")
         user_answer = input("Your answer: ").strip().lower()
         correct_answer = word['english'].lower()
+#this statement will help me ending the test.
+        if user_answer == "q":
+            break
 #if the answer is correct, will say correct or correcto.
 #if the answer is incorrect, it will show you the right answer.
         if user_answer == correct_answer:
@@ -131,7 +133,7 @@ def quiz_user(words):
         else:
             print(f"Wrong, try again! The correct answer will be '{word['english']}'.\n")
 # in order to use {score}/{len(words)}"  properly, I added f in the beginning of ()
-            
+# after pressing the q = breaking the app, I finished the test and see how many good anwers I had.            
     print(f"Quiz complete! Your score is:/ Haz completado tu prueba! tu puntuacion es: {score}/{len(words)}")
         
 
@@ -145,4 +147,4 @@ def main():
   
 if __name__ == "__main__":
     main()
-#just texted my code in visual and add I fixed some mistakes.
+#just sent my code in visual and add I fixed some mistakes.
